@@ -54,6 +54,8 @@ public class Carro {
         this.chasis = chasis;
     }
     
-    
+    public void mover(){
+        this.x++;
+    }
     
 }
