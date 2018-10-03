@@ -24,9 +24,9 @@ public class Tablero extends Application {
         
            
         Pane panel = new Pane(); // Layout 
-        Canvas canvas = new Canvas (300, 300); // Dimension del canvas
+        Canvas canvas = new Canvas (1024, 512); // Dimension del canvas
         panel.getChildren().add(canvas);
-        Scene scene = new Scene (panel, 300, 300, Color.WHITESMOKE);
+        Scene scene = new Scene (panel, 1024, 512, Color.WHITESMOKE);
         
         GraphicsContext gc = canvas.getGraphicsContext2D(); // Referencia del lapiz para dibujar sobre el canvas
         
